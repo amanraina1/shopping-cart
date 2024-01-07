@@ -6,6 +6,9 @@
 body {
   font-family: sans-serif;
 }
+i {
+  cursor: pointer;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -76,9 +79,7 @@ body {
 }
 .bi-dash-lg {
   color: red;
-  cursor: pointer;
 }
 .bi-plus-lg {
   color: green;
-  cursor: pointer;
 }
