@@ -24,12 +24,12 @@ let generateCards = () => {
                     <p>${name}</p>
                     <p class="cart-item-price">$ ${price}</p>
                 </h4>
-                <i onclick="removeItem(${id})" class="bi bi-x-lg"></i>
+                <i onclick="removeItem(${id})" title="Remove Item" class="bi bi-x-lg"></i>
             </div>
             <div class="buttons">
-            <i onclick="decrement(${id})" class="bi bi-dash-lg"></i>
+            <i onclick="decrement(${id})" title="Remove" class="bi bi-dash-lg"></i>
             <div id=${id} class="quantity">${item}</div>
-            <i onclick="increment(${id})" class="bi bi-plus-lg"></i>
+            <i onclick="increment(${id})" title="Add More" class="bi bi-plus-lg"></i>
           </div>
             <h3>$ ${item * search.price}</h3>
         </div>
